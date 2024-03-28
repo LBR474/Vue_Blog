@@ -4,12 +4,32 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <div>
-    <a href="https://vitejs.dev" target="_blank">
+    <!-- <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+    </a> -->
+            <h2>Why I like watching bike racing on TV</h2>
+
+        <figure class="mainImage">
+          <!-- <img src="images/Milan_San_Remo_Main_Image.png" alt=""> -->
+          <figcaption>Milan San Remo bike race.</figcaption>
+
+        </figure>
+
+
+
+        <article>
+
+          A few months ago I was talking on the phone with my friend Michael, and I said: <i> ‘it’s a strange phase of
+            life
+            for me at
+            the moment Michael, the only thing I really like to do is ride my own bike for 50 kilometres, then come home
+            and watch
+            other people ride their bikes for 200 kilometres’.</i> <br>
+          Which made me think about why I like it so much. <br>
+          </article>
   </div>
   <HelloWorld msg="Vite + Vue - new message" />
 </template>

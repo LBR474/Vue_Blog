@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "vue-tsc && vite build",
+    "deploy": "gh-pages -d dist",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },

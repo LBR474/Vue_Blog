@@ -13,7 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
             <h2>Why I like watching bike racing on TV</h2>
 
         <figure class="mainImage">
-          <!-- <img src="images/Milan_San_Remo_Main_Image.png" alt=""> -->
+          <img src="public/vite.svg" alt="">
           <figcaption>Milan San Remo bike race.</figcaption>
 
         </figure>
